@@ -8,7 +8,7 @@ Skills are grouped by theme, one plugin per theme under `plugins/<theme>/`.
 
 | Plugin | Skill | Description |
 |---|---|---|
-| `git` | `commit-emoji` | Creates a git commit with an emoji and a structured message, always in English. |
+| `git` | `commit` | Creates a git commit with an emoji and a structured message, always in English. |
 | `git` | `mr-description-gitlab` | Generates or updates a GitLab MR title and description in French (fixed title pattern, Description/Contexte/Changements/Tests), with confirmations before any change. |
 | `python` | `python-test-generator` | Generates pytest unit tests following strict conventions (`tests/` folder, `test__<function>__<case>` naming, with/when/then structure, attribute-by-attribute asserts). |
 | `python` | `python-docstring` (agent, Haiku) | Writes docstrings for functions, methods and classes in Google style (ruff pydocstyle, `convention = "google"`). |
@@ -33,13 +33,13 @@ Install only the themes you need.
 Or copy a single skill manually:
 
 ```
-cp -r plugins/git/skills/commit-emoji ~/.claude/skills/
+cp -r plugins/git/skills/commit ~/.claude/skills/
 ```
 
 ## Usage
 
 ```
-/git:commit-emoji [nature] [details to include]
+/git:commit [nature] [details to include]
 /git:mr-description-gitlab [MR URL]
 ```
 

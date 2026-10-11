@@ -1,5 +1,5 @@
 ---
-name: commit-emoji
+name: commit
 description: Writes and creates a git commit with a custom emoji (gitmoji style) and a structured message (short sentence + small paragraph), always in English. Use whenever the user asks to commit, to write a commit message, or says "commit this", even if they don't mention the format explicitly.
 argument-hint: "[emoji nature] [items to include in the message]"
 allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git log:*), Bash(git add:*), Bash(git commit:*)
@@ -17,7 +17,7 @@ Received content: `$ARGUMENTS`
   (preferably in the details paragraph).
 - With no argument, infer the nature from the diff.
 
-Examples: `/commit-emoji fix migration forgotten in the deployment` or `/commit-emoji` alone.
+Examples: `/commit fix migration forgotten in the deployment` or `/commit` alone.
 
 ## Steps
 
