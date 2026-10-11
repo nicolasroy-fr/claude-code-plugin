@@ -1,6 +1,6 @@
 {
   "name": "react",
-  "description": "React development skills (component generation)",
+  "description": "React development skills (component and hook generation)",
   "version": "0.1.0",
   "author": { "name": "Nicolas" }
 }
