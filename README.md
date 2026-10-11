@@ -11,6 +11,7 @@ Skills are grouped by theme, one plugin per theme under `plugins/<theme>/`.
 | `git` | `commit-emoji` | Creates a git commit with an emoji and a structured message, always in English. |
 | `git` | `mr-description-gitlab` | Generates or updates a GitLab MR title and description in French (fixed title pattern, Description/Contexte/Changements/Tests), with confirmations before any change. |
 | `python` | `python-test-generator` | Generates pytest unit tests following strict conventions (`tests/` folder, `test__<function>__<case>` naming, with/when/then structure, attribute-by-attribute asserts). |
+| `python` | `python-docstring` (agent, Haiku) | Writes docstrings for functions, methods and classes in Google style (ruff pydocstyle, `convention = "google"`). |
 | `react` | `react-component` | Generates a React component folder (TypeScript, Tailwind, Vitest + Testing Library) from templates. |
 | `react` | `react-hook` | Generates a custom React hook folder (TypeScript, Vitest + Testing Library `renderHook`) from templates. |
 | `terraform` | `terraform-aws` | Creates an AWS Terraform deployment (flat root, one file per resource family, S3 native-lock backend, default tags, fmt + validate). |

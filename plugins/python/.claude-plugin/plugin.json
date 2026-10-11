@@ -1,6 +1,6 @@
 {
   "name": "python",
-  "description": "Python development skills (pytest test generation)",
+  "description": "Python development skills (pytest test generation, docstring agent)",
   "version": "0.1.0",
   "author": { "name": "Nicolas" }
 }

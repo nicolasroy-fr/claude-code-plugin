@@ -12,7 +12,7 @@
     {
       "name": "python",
       "source": "./plugins/python",
-      "description": "Python development skills (pytest test generation)"
+      "description": "Python development skills (pytest test generation, docstring agent)"
     },
     {
       "name": "react",
