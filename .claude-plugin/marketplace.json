@@ -17,7 +17,12 @@
     {
       "name": "react",
       "source": "./plugins/react",
-      "description": "React development skills (component generation)"
+      "description": "React development skills (component and hook generation)"
+    },
+    {
+      "name": "terraform",
+      "source": "./plugins/terraform",
+      "description": "Terraform infrastructure skills (AWS deployment scaffolding)"
     }
   ]
 }

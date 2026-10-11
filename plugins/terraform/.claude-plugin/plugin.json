@@ -1,0 +1,6 @@
+{
+  "name": "terraform",
+  "description": "Terraform infrastructure skills (AWS deployment scaffolding)",
+  "version": "0.1.0",
+  "author": { "name": "Nicolas" }
+}
