@@ -1,6 +1,8 @@
 {
   "name": "nicolas-skills",
-  "owner": { "name": "Nicolas" },
+  "owner": {
+    "name": "Nicolas"
+  },
   "plugins": [
     {
       "name": "git",
@@ -11,6 +13,11 @@
       "name": "python",
       "source": "./plugins/python",
       "description": "Python development skills (pytest test generation)"
+    },
+    {
+      "name": "react",
+      "source": "./plugins/react",
+      "description": "React development skills (component generation)"
     }
   ]
 }
