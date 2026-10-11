@@ -3,9 +3,14 @@
   "owner": { "name": "Nicolas" },
   "plugins": [
     {
-      "name": "nicolas-skills",
-      "source": "./",
-      "description": "Personal collection of Claude Code skills"
+      "name": "git",
+      "source": "./plugins/git",
+      "description": "Git and GitLab workflow skills (commits, merge requests)"
+    },
+    {
+      "name": "python",
+      "source": "./plugins/python",
+      "description": "Python development skills (pytest test generation)"
     }
   ]
 }

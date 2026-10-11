@@ -1,0 +1,6 @@
+{
+  "name": "python",
+  "description": "Python development skills (pytest test generation)",
+  "version": "0.1.0",
+  "author": { "name": "Nicolas" }
+}
