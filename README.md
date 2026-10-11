@@ -18,17 +18,35 @@ Skills are grouped by theme, one plugin per theme under `plugins/<theme>/`.
 
 ## Install
 
-As a plugin (replace `<owner>/<repo>` with this repo's GitHub path, or use a local path):
+Add the marketplace (user scope, available in all your projects):
 
 ```
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add nicolasroy-fr/claude-code-plugin
+```
+
+Or with the full URL:
+
+```
+/plugin marketplace add https://github.com/nicolasroy-fr/claude-code-plugin
+```
+
+Then install the plugins you need:
+
+```
 /plugin install git@nicolas-skills
 /plugin install python@nicolas-skills
 /plugin install react@nicolas-skills
 /plugin install terraform@nicolas-skills
 ```
 
-Install only the themes you need.
+From the shell, the same thing with the CLI:
+
+```
+claude plugin marketplace add nicolasroy-fr/claude-code-plugin
+claude plugin install git@nicolas-skills --scope user
+```
+
+Update later with `/plugin marketplace update nicolas-skills`.
 
 Or copy a single skill manually:
 
